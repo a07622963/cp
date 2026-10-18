@@ -1,0 +1,6 @@
+#!name=VacoTV Inspect
+#!desc=Shows VacoTV API responses as notifications
+[Script]
+vaco-inspect = type=http-response,pattern=^https:\/\/vcrd\.world-cup26\.com\/api\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/a07622963/cp/shadowrocket/vaco.js
+[MITM]
+hostname = %APPEND% vcrd.world-cup26.com
