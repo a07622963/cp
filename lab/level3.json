@@ -1,0 +1,1 @@
+{"success": true, "payload": "eyJpc192aXAiOiBmYWxzZSwgImV4cGlyZXMiOiAiMjAyNi0wMS0wMSIsICJoaW50IjogImRlY29kZSwgZWRpdCwgcmUtZW5jb2RlIn0=", "message": "Level 3: payload is Base64 JSON. Decode it, set is_vip true and expires to 2030-01-01, encode it back."}

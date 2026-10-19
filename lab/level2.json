@@ -1,0 +1,1 @@
+{"success":true,"data":{"user":{"name":"tester","is_vip":false,"plan":"free"},"ads":{"enabled":true,"ids":{"banner":"ca-app-pub-0000/2222","interstitial":"ca-app-pub-0000/3333"}}},"message":"Level 2: nested. Change data.user.is_vip, data.user.plan to gold, and data.ads.enabled to false."}

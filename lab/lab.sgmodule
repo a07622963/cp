@@ -1,0 +1,6 @@
+#!name=Shadowrocket Lab
+#!desc=Practice rewriting JSON responses on test files
+[Script]
+lab = type=http-response,pattern=^https:\/\/raw\.githubusercontent\.com\/a07622963\/cp\/shadowrocket\/lab\/level\d\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/a07622963/cp/shadowrocket/lab/lab.js
+[MITM]
+hostname = %APPEND% raw.githubusercontent.com
